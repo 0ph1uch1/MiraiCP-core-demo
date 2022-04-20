@@ -16,9 +16,9 @@
 
 #ifndef MIRAICP_PRO_CORE_H
 #define MIRAICP_PRO_CORE_H
-#include <string>
-#include <jni.h>
 #include "MiraiCP.hpp"
+#include <jni.h>
+#include <string>
 namespace MiraiCP::Core {
     using QQID = unsigned long long;
     extern jclass coreClaz;
